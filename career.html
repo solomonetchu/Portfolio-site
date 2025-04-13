@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professional Career - Tanyi Solomon Etchu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+  <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="img/istockphoto-1364917563-612x612.jpg" class="profile-img me-2" alt="Tanyi Solomon Etchu" />
+    Tanyi Solomon Etchu
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Professional Career</a></li>
+      <li class="nav-item"><a class="nav-link" href="projects.html">Projects & Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Banner -->
+<header class="banner">
+  <video autoplay muted loop playsinline class="banner-video">
+    <source src="videos/Profiolo.mp4" type="video/mp4" />
+  </video>
+  <div class="banner-overlay text-white text-center">
+    <h1 class="display-5 fw-bold">My Professional Journey</h1>
+    <p class="lead">Customer Service • Web Design • Teaching • IT Security</p>
+  </div>
+</header>
+
+<!-- Career Cards -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Card: Customer Service -->
+      <div class="col-md-6">
+        <div class="card career-card">
+          <div class="card-body text-center" onclick="toggleTimeline(this)">
+            <i class="fas fa-headset fa-2x text-primary mb-3"></i>
+            <h5 class="card-title">Customer Service Experience</h5>
+            <p class="card-text">Handled customer inquiries and IT helpdesk tickets.</p>
+            <div class="timeline mt-3 d-none">
+              <h6>Support Agent - Placeholder Corp</h6>
+              <small>Jan 2020 – Dec 2021</small>
+              <ul>
+                <li>Managed live chat, phone, and ticketing support</li>
+                <li>Resolved technical issues efficiently</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Web & Design -->
+      <div class="col-md-6">
+        <div class="card career-card">
+          <div class="card-body text-center" onclick="toggleTimeline(this)">
+            <i class="fas fa-paint-brush fa-2x text-success mb-3"></i>
+            <h5 class="card-title">Web & Design Experience</h5>
+            <p class="card-text">Created and managed websites using modern tools.</p>
+            <div class="timeline mt-3 d-none">
+              <h6>Freelance Web Designer</h6>
+              <small>2022 – Present</small>
+              <ul>
+                <li>Built responsive sites with HTML, CSS, JS</li>
+                <li>Designed graphics with Photoshop</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Teaching -->
+      <div class="col-md-6">
+        <div class="card career-card">
+          <div class="card-body text-center" onclick="toggleTimeline(this)">
+            <i class="fas fa-chalkboard-teacher fa-2x text-info mb-3"></i>
+            <h5 class="card-title">Teaching Experience</h5>
+            <p class="card-text">Taught students and mentored learners in tech topics.</p>
+            <div class="timeline mt-3 d-none">
+              <h6>IT Instructor - Tech Academy</h6>
+              <small>2021 – 2023</small>
+              <ul>
+                <li>Taught Networking Fundamentals</li>
+                <li>Mentored over 50 students</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Networking & Security -->
+      <div class="col-md-6">
+        <div class="card career-card">
+          <div class="card-body text-center" onclick="toggleTimeline(this)">
+            <i class="fas fa-shield-alt fa-2x text-danger mb-3"></i>
+            <h5 class="card-title">Networking & Security</h5>
+            <p class="card-text">Worked on systems monitoring, firewalls, and audits.</p>
+            <div class="timeline mt-3 d-none">
+              <h6>IT Security Analyst - CyberTech</h6>
+              <small>2023 – Present</small>
+              <ul>
+                <li>Implemented security policies</li>
+                <li>Performed vulnerability assessments</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Download Resume Section -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h4>Want a copy of my full resume?</h4>
+    <a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" class="btn btn-primary mt-3">
+      <i class="fas fa-download me-2"></i>Download My Resume
+    </a>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="text-center py-4 bg-dark text-white">
+  <div class="container">
+    <p class="mb-2">&copy; 2025 Tanyi Solomon Etchu. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="Js/script.js"></script>
+</body>
+</html>

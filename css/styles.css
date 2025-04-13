@@ -1,0 +1,476 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  section:last-of-type {
+    padding-bottom: 100px;
+  }
+
+.banner-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .banner {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .banner video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .about-img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .explore-card {
+    transition: transform 0.2s;
+  }
+  
+  .explore-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+    background: #2c3e50;
+    color: white;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .navbar .nav-link.active {
+    color: #fff !important;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+
+  /* Profile and layout styles */
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .about-img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  .explore-card {
+    transition: transform 0.2s;
+  }
+  .explore-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Banner styling */
+
+  .banner video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+  .nav-link.active {
+    color: #ffc107 !important;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background: #2c3e50;
+    color: white;
+  }
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Active nav */
+  .navbar-nav .nav-link.active {
+    color: #00bfff !important;
+    font-weight: bold;
+  }
+  
+
+
+  /* ===== Career Page Specific Styles ===== */
+.banner {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .banner-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+  }
+  
+  .banner-overlay {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .career-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .career-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .timeline {
+    text-align: left;
+  }
+  
+  .timeline h6 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .timeline ul {
+    padding-left: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+
+
+  .banner-section {
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .banner-video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .banner-overlay {
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .banner-content {
+    z-index: 2;
+    padding: 2rem;
+  }
+  
+  
+
+  /* ===== Language Slider Styles  Projects & Skills ===== */
+  .language-slider {
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .language-card {
+    min-width: 250px;
+    max-width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .language-card:hover {
+    transform: scale(1.05);
+    background-color: #f9f9f9;
+  }
+  
+  .language-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .language-card {
+      min-width: 200px;
+      height: 220px;
+    }
+  }
+
+
+    /* ===== current Projects Section Styles ===== */   
+
+  #current-projects h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .project-slider {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    gap: 20px;
+  }
+  
+  .project-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .project-card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+  }
+  
+  .card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    z-index: 1;
+  }
+  
+  .slider-arrow.prev {
+    left: -20px;
+  }
+  
+  .slider-arrow.next {
+    right: -20px;
+  }
+  
+/* Responsive tweaks for project section */
+@media (max-width: 768px) {
+    .project-slider {
+      margin-top: 20px;
+    }
+  
+    .project-card {
+      width: 100%;
+      height: auto;
+    }
+  
+    .project-card .card-front,
+    .project-card .card-back {
+      padding: 1.2rem;
+    }
+  
+    .slider-arrow {
+      font-size: 1.5rem;
+      padding: 6px 12px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+    /* ===== Completed Project Section Styles ===== */
+
+    /* Completed Projects */
+    /* ========== Completed Projects Styles ========== */
+#completed-projects {
+  background-color: #f8f9fa;
+}
+
+#completed-projects .completed-stack-container {
+  perspective: 1200px;
+  width: 100%;
+  max-width: 320px;
+  margin: auto;
+}
+
+#completed-projects .completed-project-card {
+  width: 100%;
+  height: 380px;
+  position: relative;
+}
+
+#completed-projects .card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+
+#completed-projects .card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+#completed-projects .card-front,
+#completed-projects .card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#completed-projects .card-front img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#completed-projects .card-front {
+  z-index: 2;
+}
+
+#completed-projects .card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#completed-projects .completed-nav button {
+  min-width: 40px;
+}
+
+@media (max-width: 768px) {
+  #completed-projects .row {
+    flex-direction: column-reverse;
+  }
+
+  #completed-projects .text-section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #completed-projects .completed-stack-container {
+    max-width: 100%;
+  }
+}
+
+    
+
+  /* ===== Contact Me ===== */
+  /* Cards */
+/* Banner */
+
+  
+  /* Cards */
+  .card i {
+    color: #0d6efd;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+  }
+  
+  /* Footer */
+  footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.4rem;
+  }
+  
